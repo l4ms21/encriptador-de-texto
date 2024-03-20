@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto1{
+    padding: 20%;
+    
+}
+
+.texto2{
+    /*padding: 10%;*/
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    gap: 0px;
+    border-radius: 32px 0px 0px 0px;
+    opacity: 0px;
+}
+
+#texto-a-encriptar{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    padding-left: 10px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+#texto-a-encriptar::placeholder{
+    color: #0A3871;
+}
+#mensaje-desencriptado{
+    padding-right: 400 px 944px;
+    align-self: auto;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+.alerta{
+    position: absolute;
+    top: 750px;
+    left: 370px;
+    display: flex;
+    color: #495057;
+}
+
+.botones {
+    position: absolute;
+    top: 800px;
+    height: 80px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#btn-encriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 19.36px;
+    text-align: center;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+#btn-desencriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.mensaje-desencriptado{
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    gap: 0px;
+    border-radius: 32px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.contenedor-copiar{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    padding-left: 40px;
+}
+
+
+.btn-copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    right: 4px;
+}
